@@ -1,4 +1,1 @@
----
-title: Welcome to my blog
----
-
+creating a blog: the epitome of lameness
