@@ -1,1 +1,1 @@
-creating the blog: the epitome of lameness
+creating a blog: the epitome of lameness
