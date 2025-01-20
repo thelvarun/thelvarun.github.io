@@ -1,10 +1,14 @@
 entries:
-  - title: don't say i didn't warn ya
+  - title: about me
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: swe @ youtube
+      - title: i'm currently interested math, physics, software engineering, algorithms, comedy, chess, piano, and philosphy
+      - title: i loved a few video games growing up, and i run a youtube channel where i talk about anything on my mind.
+  - title: why a blog?
+    entries:
+      - title: i'd like to become better at articulating my thoughts. a blog helps me do that sometimes.
+      - title: i think our society has become deeply unhappy because in general, we indulge far more than before. i believe most people's happiness would increase if we used our time creating more. this blog is just one way i can express myself. i might not be the most creative (probably far from it), but i believe that creating a blog is a better use of my time rather than, say, watching 5 youtube shorts with enough stimulation to keep my awake for the next 3 hours.
+      - title: damn would ya get a load of this guy? who asked!
 
   - title: all posts
     post_list:

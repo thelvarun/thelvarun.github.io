@@ -3,7 +3,7 @@ url: https://thelvarun.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   <p>starting a blog is might possibly be the worst thing you can do as a human being<p>
-  <p>it's just someone talking to themself, about themself, by themself. why not talk to someone else about the things you're putting in your blog?<p>
+  <p>it's just someone talking to themself, about themself, by themself. get a job!<p>
   <p>anyway here's mine<p>
 
 permalink: /:slug.html
