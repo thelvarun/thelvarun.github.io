@@ -2,10 +2,10 @@ title: thelvarun # name of the site
 url: https://thelvarun.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  starting a blog is possibly the worst thing you can do as a human being\n
-  it's just someone talking to themself about themself and their own opinions on things. like, why not talk to someone about the things you're putting in your blog?\n
-  anyway here's mine\n
-  test
+  "starting a blog is possibly the worst thing you can do as a human being\n"
+  "it's just someone talking to themself about themself and their own opinions on things. like, why not talk to someone about the things you're putting in your blog?\n"
+  "anyway here's mine\n"
+  test2
 
 permalink: /:slug.html
 
