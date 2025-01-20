@@ -1,10 +1,10 @@
 title: thelvarun # name of the site
-# author: Riccardo Graziosi # name of site's author
-# email: riccardo.graziosi97@gmail.com # email of site's author
 url: https://thelvarun.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  blahdiblahdiblah
+  starting a blog is possibly the worst thing you can do as a human being
+  it's just someone talking to themself about themself and their own opinions on things. like, why not talk to someone about the things you're putting in your blog?
+  anyway here's mine
 
 permalink: /:slug.html
 
