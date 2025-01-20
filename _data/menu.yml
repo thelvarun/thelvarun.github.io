@@ -1,13 +1,14 @@
 entries:
-  - title: about me
+  - title: <b>about me</b>
     entries:
       - title: swe @ youtube
       - title: i'm currently interested math, physics, software engineering, algorithms, comedy, chess, piano, and philosphy
       - title: i loved a few video games growing up, and i run a youtube channel where i talk about anything on my mind.
-  - title: why a blog?
+  - title: <b>why a blog?</b>
     entries:
       - title: i'd like to become better at articulating my thoughts. a blog helps me do that sometimes.
-      - title: i think our society has become deeply unhappy because in general, we indulge far more than before. i believe most people's happiness would increase if we used our time creating more. this blog is just one way i can express myself. i might not be the most creative (probably far from it), but i believe that creating a blog is a better use of my time rather than, say, watching 5 youtube shorts with enough stimulation to keep my awake for the next 3 hours.
+      - title: i think our society has become deeply unhappy because in general, we indulge far more than ever before. i believe most people would be happier if they spent their time creating more and consuming less.
+      - title: this blog is just one way i can express myself. i might not be the most creative (far from it), but i believe that creating and maintaining blog is (narrowly) a better use of my time rather than, say, watching 5 youtube shorts about whether or not the new chick fil a fries are any good.
       - title: damn would ya get a load of this guy? who asked!
 
   - title: all posts
