@@ -1,1 +1,3 @@
-creating a blog: the epitome of lameness
+---
+layout: home
+---
