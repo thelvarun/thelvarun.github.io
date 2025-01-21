@@ -155,8 +155,9 @@ figure {
 figcaption {
   display: table-caption;
   caption-side: bottom;
-  color: aqua;
   background-color: aqua;
+  color: #3a7cc4;
+  padding: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
