@@ -154,7 +154,7 @@ figure {
 figcaption {
   display: table-caption;
   caption-side: bottom;
-  padding-top: 0.5rem;
+  margin-top: 0.1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
