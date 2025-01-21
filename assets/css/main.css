@@ -154,7 +154,10 @@ figure {
 figcaption {
   display: table-caption;
   caption-side: bottom;
-  margin-top: 1rem;
+  margin-top: 0.2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=main.css.map */
