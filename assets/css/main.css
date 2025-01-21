@@ -149,14 +149,11 @@ img {
 
 figure {
   display: table;
-  background-color: #fff;
 }
 
 figcaption {
   display: table-caption;
   caption-side: bottom;
-  background-color: aqua;
-  color: #3a7cc4;
 }
 
 /*# sourceMappingURL=main.css.map */
