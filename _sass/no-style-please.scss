@@ -1,43 +1,54 @@
 // -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  filter: invert(1);
+// @mixin dark-appearance {
+//   filter: invert(1);
 
-  img {
-    filter: invert(1);
+//   img {
+//     filter: invert(1);
 
-    &.ioda {
-      filter: invert(0);
-    }
-  }
+//     &.ioda {
+//       filter: invert(0);
+//     }
+//   }
 
-  .emoji {
-    filter: invert(1);
-  }
+//   .emoji {
+//     filter: invert(1);
+//   }
 
-  iframe {
-    filter: invert(1);
-  }
-}
+//   iframe {
+//     filter: invert(1);
+//   }
+// }
 
-body[a="dark"] {
-  @include dark-appearance;
-}
+// body[a="dark"] {
+//   @include dark-appearance;
+// }
 
 
-@media (prefers-color-scheme: dark) {
-  body[a="auto"] {
-    @include dark-appearance;
-  }
-}
+// @media (prefers-color-scheme: dark) {
+//   body[a="auto"] {
+//     @include dark-appearance;
+//   }
+// }
 
 // -------------------------------------------- //
+
+/**
+ * Header/Navigation
+ */
+.menu { background-color: var(--background-color); }
+.menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
+.menu ul li { display: inline;  margin-left: 12px; }
+.menu ul li a { text-decoration: none;  color: var(--text-color); }
+.menu ul li a:hover { text-decoration: none; color: var(--selection-text); background-color: var(--selection-background); }
+
+ // -------------------------------------------- //
 
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
 html,
 body {
-  background: white;
+  background-color: var(--background-color);
 }
 
 html {
@@ -46,7 +57,7 @@ html {
 }
 
 body {
-  color: black;
+  color: var(--text-color);
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -79,8 +90,12 @@ li {
   margin: 0.4rem 0;
 }
 
+a { text-decoration: underline;  color: var(--selection-background); }
+
+a:hover { color: var(--selection-text); background-color: var(--selection-background); }
+
 *:target {
-  background: yellow;
+  background: green;
 }
 
 .w {
@@ -141,3 +156,18 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  margin-top: 0.2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+::selection { background: var(--selection-background);  color: var(--selection-text); }

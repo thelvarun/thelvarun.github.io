@@ -2,47 +2,15 @@ entries:
   - title: <b>about me</b>
     entries:
       - title: swe @ youtube
-      - title: i'm currently interested math, physics, software engineering, algorithms, comedy, chess, piano, and philosphy. i'm not good at any of 'em though.
+      - title: i'm currently interested math, physics, software engineering, algorithms, comedy, chess, piano, and philosphy. the nature of being interested in so many things means that i'm not really good at any of them (except maybe software engineering... <i>maybe</i>)
       - title: i loved a few video games growing up, and i run a youtube channel where i talk about anything on my mind
   - title: <b>why a blog?</b>
     entries:
       - title: i'd like to become better at articulating my thoughts. a blog helps me do that sometimes, both in writing and in real life.
-      - title: i think our society has become deeply unhappy because we indulge far more than ever before. i believe most people would be happier if they spent their time creating more and consuming less
-      - title: this blog is one way i can exercise that belief - an area to create, not consume. i might not be the most creative (far from it), but i believe that creating and maintaining a blog is (narrowly) a better use of my time than, say, watching 5 youtube shorts about whether or not the new chick-fil-a fries are any good (they aren't)
-      - title: damn would ya get a load of this guy? who asked!
-  - title: <b>things i'll probably put on here (my little todo list)</b>
-    entries:
-      - title: first on the list, elaborate on what i mean about induglence and unhappiness in my "why a blog?" section in a true "post", then give a little tl;dr in the "why a blog?" section and link to that post
-      - title: a tab for books that i'm currently reading, have read, and my opinion on them
-      - title: a tab for a weight tracker (i want to put my weight on my public website if that's not clear)
-      - title: maybe a tab for piano recordings
-      - title: random thoughts/opinions on things
-      - title: writeups or discussions of various algorithms, maths, or physics problems that i come across
-      - title: maybe reflections over pieces of media that i've watched
-  - title: all posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
-
-  # - title: posts by category
+      - title: effortful living [add link to blog post ;)]
+  # - title: all posts
   #   post_list:
-  #     category: example2
+  #     limit: 5
   #     show_more: true
-  #     show_more_text: See more posts...
-  #     show_more_url: example2-archive.html
-
-  # - title: rss
-  #   url: feed.xml
-  
-  # - title: another list
-  #   entries:
-  #     - title: with subitems
-  #       entries:
-  #         - title: with subsubitems
-  #         - title: example page
-  #           url: about
-  # - title: PRO TIP
-  #   entries:
-  #     - title: to edit this menu, edit _data/menu.yml file
+  #     show_more_text: See archive...
+  #     show_more_url: archive.html

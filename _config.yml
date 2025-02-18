@@ -6,9 +6,16 @@ description: > # description of the site (multiple lines allowed)
   <p>it's just someone talking to themself, about themself, by themself. get a job!<p>
   <p>anyway, here's mine<p>
 
+header_pages:
+  - index.md
+  - writeups.md
+  - projects.md
+  - blog.md
+  - books.md
+
 permalink: /:slug.html
 
-favicon: "256x256arbiter-close.png" # name+extension of favicon (which must be put on the root folder)
+favicon: "favicon.png" # name+extension of favicon (which must be put on the root folder)
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
 remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
