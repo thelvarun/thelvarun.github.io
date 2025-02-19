@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Construct Smallest Number From DI String
-categories: writeups algorithms
+tag: algorithms
 ---
 *Note: This is my first writeup - it'll probably be messy. But -- I have to start somewhere :).*
 
