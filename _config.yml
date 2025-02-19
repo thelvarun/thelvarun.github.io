@@ -1,4 +1,5 @@
-title: thelvarun # name of the site
+# TODO: Download the _layouts from the no-style-please official github repo and change the layout for the home page instead of putting raw html in the config file
+title: <span class="highlighted">thelvarun</span> # name of the site
 url: https://thelvarun.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
@@ -22,13 +23,16 @@ remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: "/home" # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
+  # back_home_text: "/home" # customize text for homepage link in post layout, commented out because I want to remove this.
+  date_format: "[ %Y-%m-%d ]" # customize how date is formatted
   show_description: true # show blog description in home page
   lowercase_titles: true # show titles in lowercase in lists
 
 sass:
   style: compressed
+
+markdown: kramdown
+highlighter: rouge
 
 plugins:
   - jekyll-feed

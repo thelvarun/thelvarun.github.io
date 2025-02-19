@@ -1,10 +1,10 @@
 entries:
-  - title: <b>about me</b>
+  - title: <b class="highlighted">about me</b>
     entries:
-      - title: swe @ youtube
-      - title: i'm currently interested math, physics, software engineering, algorithms, comedy, chess, piano, and philosphy. the nature of being interested in so many things means that i'm not really good at any of them (except maybe software engineering... <i>maybe</i>)
+      - title: swe @ <span class="highlighted">youtube</span>
+      - title: i'm currently interested <span class="highlighted">math</span>, <span class="highlighted">physics</span>, <span class="highlighted">software engineering</span>, <span class="highlighted">algorithms</span>, <span class="highlighted">comedy</span>, <span class="highlighted">chess</span>, <span class="highlighted">piano</span>, and <span class="highlighted">philosphy</span>. the nature of being interested in so many things means that i'm not really good at any of them (except maybe software engineering... <i>maybe</i>)
       - title: i loved a few video games growing up, and i run a youtube channel where i talk about anything on my mind
-  - title: <b>why a blog?</b>
+  - title: <b class="highlighted">why a blog?</b>
     entries:
       - title: i'd like to become better at articulating my thoughts. a blog helps me do that sometimes, both in writing and in real life.
       - title: effortful living [add link to blog post ;)]

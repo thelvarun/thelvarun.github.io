@@ -1,47 +1,4 @@
-// -------------- THEME SWITCHER -------------- //
-// @mixin dark-appearance {
-//   filter: invert(1);
-
-//   img {
-//     filter: invert(1);
-
-//     &.ioda {
-//       filter: invert(0);
-//     }
-//   }
-
-//   .emoji {
-//     filter: invert(1);
-//   }
-
-//   iframe {
-//     filter: invert(1);
-//   }
-// }
-
-// body[a="dark"] {
-//   @include dark-appearance;
-// }
-
-
-// @media (prefers-color-scheme: dark) {
-//   body[a="auto"] {
-//     @include dark-appearance;
-//   }
-// }
-
-// -------------------------------------------- //
-
-/**
- * Header/Navigation
- */
-.menu { background-color: var(--background-color); }
-.menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
-.menu ul li { display: inline;  margin-left: 12px; }
-.menu ul li a { text-decoration: none;  color: var(--text-color); }
-.menu ul li a:hover { text-decoration: none; color: var(--selection-text); background-color: var(--selection-background); }
-
- // -------------------------------------------- //
+// -------------- No Style Please stylings -------------- //
 
 // bg color is also needed in html in order to
 // block body's background propagation
@@ -90,7 +47,7 @@ li {
   margin: 0.4rem 0;
 }
 
-a { text-decoration: underline;  color: var(--selection-background); }
+a { text-decoration: none;  color: var(--selection-background); }
 
 a:hover { color: var(--selection-text); background-color: var(--selection-background); }
 
@@ -130,8 +87,8 @@ td {
 }
 
 code {
-  color: white;
-  background: black;
+  color: var(--selection-text);
+  background: var(--base-color);
 }
 
 div.highlighter-rouge code {
@@ -157,6 +114,17 @@ img {
   margin: 0 auto;
 }
 
+// -------------- My custom stylings -------------- //
+
+/**
+ * Header/Navigation, ripped from github.com/b2a3e8/jekyll-theme-console
+ */
+ .menu { background-color: var(--background-color); }
+ .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
+ .menu ul li { display: inline;  margin-left: 12px; }
+ .menu ul li a { text-decoration: none;  color: var(--text-color); }
+ .menu ul li a:hover { text-decoration: none; color: var(--selection-text); background-color: var(--selection-background); }
+
 figure {
   display: table;
 }
@@ -171,3 +139,78 @@ figcaption {
 }
 
 ::selection { background: var(--selection-background);  color: var(--selection-text); }
+
+.highlighted {
+  background: var(--selection-background);  color: var(--selection-text);
+}
+
+.highlighted::selection { background-color: var(--base-color); color: blue;}
+
+/**
+ * Code and syntax highlighting, sas pygment style. Maybe I need to change something.
+ */
+pre { line-height: 125%; margin: 0; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #ffffcc }
+.highlight { background: #ffffff; }
+.highlight .c { color: #008800; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .g { color: #2c2cff } /* Generic */
+.highlight .k { color: #2c2cff } /* Keyword */
+.highlight .x { background-color: #ffffe0 } /* Other */
+.highlight .ch { color: #008800; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #008800; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #008800; font-style: italic } /* Comment.Preproc */
+.highlight .cpf { color: #008800; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #008800; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #008800; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #2c2cff } /* Generic.Deleted */
+.highlight .ge { color: #008800 } /* Generic.Emph */
+.highlight .gr { color: #d30202 } /* Generic.Error */
+.highlight .gh { color: #2c2cff } /* Generic.Heading */
+.highlight .gi { color: #2c2cff } /* Generic.Inserted */
+.highlight .go { color: #2c2cff } /* Generic.Output */
+.highlight .gp { color: #2c2cff } /* Generic.Prompt */
+.highlight .gs { color: #2c2cff } /* Generic.Strong */
+.highlight .gu { color: #2c2cff } /* Generic.Subheading */
+.highlight .gt { color: #2c2cff } /* Generic.Traceback */
+.highlight .kc { color: #2c2cff; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #2c2cff } /* Keyword.Declaration */
+.highlight .kn { color: #2c2cff } /* Keyword.Namespace */
+.highlight .kp { color: #2c2cff } /* Keyword.Pseudo */
+.highlight .kr { color: #353580; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #2c2cff } /* Keyword.Type */
+.highlight .m { color: #2e8b57; font-weight: bold } /* Literal.Number */
+.highlight .s { color: #800080 } /* Literal.String */
+.highlight .nb { color: #2c2cff } /* Name.Builtin */
+.highlight .nf { font-weight: bold; font-style: italic } /* Name.Function */
+.highlight .nv { color: #2c2cff; font-weight: bold } /* Name.Variable */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #2e8b57; font-weight: bold } /* Literal.Number.Bin */
+.highlight .mf { color: #2e8b57; font-weight: bold } /* Literal.Number.Float */
+.highlight .mh { color: #2e8b57; font-weight: bold } /* Literal.Number.Hex */
+.highlight .mi { color: #2e8b57; font-weight: bold } /* Literal.Number.Integer */
+.highlight .mo { color: #2e8b57; font-weight: bold } /* Literal.Number.Oct */
+.highlight .sa { color: #800080 } /* Literal.String.Affix */
+.highlight .sb { color: #800080 } /* Literal.String.Backtick */
+.highlight .sc { color: #800080 } /* Literal.String.Char */
+.highlight .dl { color: #800080 } /* Literal.String.Delimiter */
+.highlight .sd { color: #800080 } /* Literal.String.Doc */
+.highlight .s2 { color: #800080 } /* Literal.String.Double */
+.highlight .se { color: #800080 } /* Literal.String.Escape */
+.highlight .sh { color: #800080 } /* Literal.String.Heredoc */
+.highlight .si { color: #800080 } /* Literal.String.Interpol */
+.highlight .sx { color: #800080 } /* Literal.String.Other */
+.highlight .sr { color: #800080 } /* Literal.String.Regex */
+.highlight .s1 { color: #800080 } /* Literal.String.Single */
+.highlight .ss { color: #800080 } /* Literal.String.Symbol */
+.highlight .bp { color: #2c2cff } /* Name.Builtin.Pseudo */
+.highlight .fm { font-weight: bold; font-style: italic } /* Name.Function.Magic */
+.highlight .vc { color: #2c2cff; font-weight: bold } /* Name.Variable.Class */
+.highlight .vg { color: #2c2cff; font-weight: bold } /* Name.Variable.Global */
+.highlight .vi { color: #2c2cff; font-weight: bold } /* Name.Variable.Instance */
+.highlight .vm { color: #2c2cff; font-weight: bold } /* Name.Variable.Magic */
+.highlight .il { color: #2e8b57; font-weight: bold } /* Literal.Number.Integer.Long */
