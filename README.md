@@ -1,1 +1,1 @@
-this is MY readme!
+My personal website. Theme is a mix of github.com/b2a3e8/jekyll-theme-console and github.com/riggraz/no-style-please with my own styling. I probably have done some quite silly things in the code but hey, it works.
