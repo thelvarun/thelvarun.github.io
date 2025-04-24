@@ -1,5 +1,8 @@
 ---
 layout: page
-title: blog
+title: blogs
+categories:
+  blogs: "blogs"
 ---
-What do YOU think this page is for?
+{% assign blogs_category = page.categories.blogs %}
+{% include post_list.html category=blogs_category %}

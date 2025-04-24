@@ -3,7 +3,6 @@ layout: page
 title: writeups
 categories:
   writeups: "writeups"
-  blogs: "blogs"
 subcategories:
   writeups:
     algorithms: "algorithms"
