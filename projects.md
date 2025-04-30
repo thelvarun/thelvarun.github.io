@@ -3,4 +3,10 @@ layout: page
 title: projects
 ---
 
-This is a page where I'd list all my completed projects... if I had one!!
+<!-- TODO: maybe make a nicer entries page for this. -->
+- bookworm
+  - a very, very small, personal command line application for keeping tracks of the books i'm reading as well as a wishlist.
+- advent of code solutions 2024
+  - my solutions to advent of code 2024, written in some C++ and python
+  - not always the most optimal solutions
+  - available on github
