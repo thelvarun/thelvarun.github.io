@@ -1,4 +1,4 @@
-Instructions for creating new posts.
+# Instructions for creating new posts.
 
 1. There's two things to know. There's a "homepage" for posts which usually consists of lists of posts
 and there are the posts themselves.
@@ -19,3 +19,7 @@ and there are the posts themselves.
 6. Post structure must be in format YYYY-MM-DD-title-of-your-post.md
 
 7. To add the list of posts to your homepage, include the post_list layout and specify the category and optional subcategories. See blogs.md for an example with just category posts, and see writeups.md for an example with subcategories.
+
+# Viewing the site
+
+To view the site locally, run `bundle exec jekyll serve` in the terminal. I think there's a flag called `--live-reload` or something, but I forgot what it does.
